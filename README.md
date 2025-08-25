@@ -1,6 +1,6 @@
 **Project Description**: Develop a web and mobile application that allows users to book unique accommodations, similar to Airbnb. The platform will connect hosts with travelers, enabling them to list, discover, and book properties.
 
-Common Tech Stacks for Airbnb Clone Projects
+**Common Tech Stacks for Airbnb Clone Projects**:
 **MERN Stack**:
 A popular choice for full-stack JavaScript applications, it uses MongoDB for the database, Express.js for the backend framework, React for the frontend, and Node.js for the server. 
 **Next.js & React with Prisma/MongoDB**:
@@ -55,5 +55,39 @@ Teams often use ceremonies like stand-ups and Kanban boards to organize work, pl
 **Component Breakdown**:
 The project is broken down into manageable tasks, such as user registration, creating listings, booking management, and chat functionality, with different team members taking ownership. 
 
+##Database Design
+
+**1. Users Entity**
+id: A unique identifier for each user (e.g., host or guest).
+username: A unique username for login and identification.
+email: A unique email address for communication and account security.
+password_hash: The securely hashed password for user authentication.
+role: To distinguish between hosts and guests, and potentially admins.
+**2. Properties Entity** 
+id: A unique identifier for each listed property.
+host_id: A foreign key linking to the Users table to identify the property's owner.
+title: A short, catchy title for the property listing.
+description: A detailed description of the property.
+location: The geographical location of the property.
+**3. Bookings Entity** 
+id: A unique identifier for each booking.
+user_id: A foreign key linking to the Users table, indicating the guest.
+property_id: A foreign key linking to the Properties table, indicating the booked property.
+check_in_date: The start date of the booking.
+check_out_date: The end date of the booking.
+total_price: The total cost of the booking.
+**4. Reviews Entity**
+id: A unique identifier for each review. 
+user_id: A foreign key to the Users table, identifying the reviewer. 
+property_id: A foreign key to the Properties table, indicating which property was reviewed. 
+booking_id: A foreign key to the Bookings table, linking the review to a specific stay. 
+rating: A numerical rating (e.g., 1-5) given by the guest. 
+comment: The textual feedback provided by the guest. 
+**5. Payments Entity** 
+id: A unique identifier for each payment transaction.
+booking_id: A foreign key linking the payment to a specific booking.
+amount: The total amount paid.
+payment_method: The method used for payment (e.g., credit card, PayPal).
+status: The current status of the payment (e.g., pending, completed, failed).
 
 
