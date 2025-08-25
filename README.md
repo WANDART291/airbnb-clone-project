@@ -1,28 +1,28 @@
 **Project Description**: Develop a web and mobile application that allows users to book unique accommodations, similar to Airbnb. The platform will connect hosts with travelers, enabling them to list, discover, and book properties.
 
 Common Tech Stacks for Airbnb Clone Projects
-MERN Stack:
+**MERN Stack**:
 A popular choice for full-stack JavaScript applications, it uses MongoDB for the database, Express.js for the backend framework, React for the frontend, and Node.js for the server. 
-Next.js & React with Prisma/MongoDB:
+**Next.js & React with Prisma/MongoDB**:
 A modern approach focusing on performance and developer experience, utilizing React Server Components and client components with Next.js, a database like MongoDB, and Prisma for database access. 
-Python & Flask:
+**Python & Flask**:
 Some educational clones use a Python backend with the Flask framework and a MySQL database, along with a dynamic HTML/CSS/jQuery frontend. 
-Angular:
+**Angular**:
 For a different perspective, an Airbnb clone can be built with Angular 17, PrimeNG for UI components, and other features like signals for a modern Angular experience. 
 Key Technologies & Concepts Used
-Frontend Frameworks:
+**Frontend Frameworks**:
 React, Next.js, and Angular are used to build interactive user interfaces and handle dynamic elements like search bars and calendars. 
-Backend Frameworks:
+**Backend Frameworks**:
 Express.js for Node.js applications and Flask for Python applications are used to create APIs and manage application logic. 
-Databases:
+**Databases**:
 MongoDB is a common choice for its flexibility, while PostgreSQL and MySQL are also used in some projects. 
-Styling:
+**Styling**:
 Tailwind CSS is often employed for responsive, modern designs, while Styled Components might be used for component-based styling. 
-Authentication:
+**Authentication**:
 Libraries like NextAuth and JWT are used to handle user sign-up, login, and secure sessions. 
-Mapping:
+**Mapping**:
 APIs like Mapbox are integrated to provide geolocation and display locations on interactive maps. 
-Image Uploads:
+**Image Uploads**:
 Cloudinary is a popular service for hosting and managing image assets. 
 
 
@@ -56,5 +56,4 @@ Teams often use ceremonies like stand-ups and Kanban boards to organize work, pl
 The project is broken down into manageable tasks, such as user registration, creating listings, booking management, and chat functionality, with different team members taking ownership. 
 
 
-Vercel is a common platform for deploying Next.js applications. 
 
