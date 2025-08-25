@@ -1,4 +1,4 @@
-Project Description: Develop a web and mobile application that allows users to book unique accommodations, similar to Airbnb. The platform will connect hosts with travelers, enabling them to list, discover, and book properties.
+**Project Description**: Develop a web and mobile application that allows users to book unique accommodations, similar to Airbnb. The platform will connect hosts with travelers, enabling them to list, discover, and book properties.
 
 Common Tech Stacks for Airbnb Clone Projects
 MERN Stack:
